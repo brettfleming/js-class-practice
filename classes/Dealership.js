@@ -1,4 +1,5 @@
-
+const Employee = require('./Employee');
+const Vehicle = require('./Vehicle');
 
 
 class Dealership {
@@ -6,7 +7,7 @@ class Dealership {
         this.name = name;
         this.owner = owner;
         this.employeeCount = employeeCount;
-        this.cars = []
+        this.Vehicles = []
         this.employees = []
     }
 }
