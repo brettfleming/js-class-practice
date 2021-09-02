@@ -12,4 +12,9 @@ class Schools {
             console.log('we are accepting students');
         }
     }
+    printInfo = () => {
+        console.log(`Name: ${this.name}`);
+        console.log(`State: ${this.State}`);
+        isSchoolFull(this.studentCount);
+    }
 }
