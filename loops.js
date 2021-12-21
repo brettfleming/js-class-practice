@@ -9,14 +9,14 @@ const forEachLoop = () => {
     })    
 
 };
-
+// a for loop run for the lenth provided
 const forLoop = () => {
     for (let i = 0; i < arrayOfNames.length; i++) {
         console.log(arrayOfNames[i]);
       }
 
 };
-
+// a while loop runs as long as the conditon is still being met
 const whileLoops = () => {
     while (i < 4) {
         console.log(arrayOfNames[i]);
