@@ -1,0 +1,12 @@
+
+
+
+
+
+const foreachLoop = () => {
+
+};
+
+const forLoop = () => {
+
+};
