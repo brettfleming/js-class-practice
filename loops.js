@@ -3,10 +3,14 @@
 
 
 
-const foreachLoop = () => {
+const forEachLoop = () => {
 
 };
 
 const forLoop = () => {
+
+};
+
+const whileLoops = () => {
 
 };
