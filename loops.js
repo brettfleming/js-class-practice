@@ -2,7 +2,7 @@
 const arrayOfNames = ['abby', 'tim', 'jim', 'kim', 'james']
 
 
-
+// the for each loop runs the code for each of the items in the array that is provided
 const forEachLoop = () => {
     arrayOfNames.forEach(name => {
         console.log(name);
