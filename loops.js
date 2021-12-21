@@ -18,5 +18,8 @@ const forLoop = () => {
 };
 
 const whileLoops = () => {
-
+    while (i < 4) {
+        console.log(arrayOfNames[i]);
+        i++;
+      }
 };
