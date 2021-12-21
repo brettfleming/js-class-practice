@@ -11,6 +11,9 @@ const forEachLoop = () => {
 };
 
 const forLoop = () => {
+    for (let i = 0; i < arrayOfNames.length; i++) {
+        console.log(arrayOfNames[i]);
+      }
 
 };
 
