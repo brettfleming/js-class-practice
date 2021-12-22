@@ -28,3 +28,6 @@ const randomfunction = {
     const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     return upper[Math.floor(Math.random() * 26)]
   }
+  function randomNumber() {
+    return Math.floor(Math.random() * 10)
+  }
