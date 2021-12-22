@@ -23,3 +23,8 @@ const randomfunction = {
     const lower = "abcdefghijklmnopqrstuvwxyz"
     return lower[Math.floor(Math.random() * 26)]
   }
+
+  function randomUpper() {
+    const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    return upper[Math.floor(Math.random() * 26)]
+  }
