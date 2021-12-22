@@ -61,3 +61,19 @@ const randomfunction = {
     var password = generatedPassword.slice(0, length); 
     return password;
   }
+
+  generateElement.addEventListener("click", function() {
+    let length = lengthElement.value;
+    const lowerCaseSelected = lowercaseElement.checked;
+    const symbolsSelected = symbolsElement.checked;
+    const symbols2Selected = symbols2Element.checked;
+    const upperCaseSelected = uppercaseElement.checked;
+    const numbersSelected = numbersElement.checked;
+    
+    if (length < 8 || length > 128) {
+      length = prompt("please enter a valid length.")
+    };
+    
+      passwordElement.innerText = generatePassword(lowerCaseSelected, upperCaseSelected, numbersSelected, symbolsSelected, symbols2Selected, length);
+  });
+  
