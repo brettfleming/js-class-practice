@@ -36,3 +36,7 @@ const randomfunction = {
     const symbols = "!@#$%^&*(){}[]?"
     return symbols[Math.floor(Math.random() * symbols.length)]
   }
+  function randomSymbol2() {
+    const symbols2 = "-_=+d`~/\|<>"
+    return symbols2[Math.floor(Math.random() * symbols2.length)]
+  }
