@@ -40,3 +40,24 @@ const randomfunction = {
     const symbols2 = "-_=+d`~/\|<>"
     return symbols2[Math.floor(Math.random() * symbols2.length)]
   }
+  function generatePassword(lowercase, uppercase, number, symbol, symbol2, length) {
+    let generatedPassword = '';
+    // need to count the types being selected
+    const Count = lowercase + uppercase + number + symbol + symbol2;
+    // then we need to filter out the ones coming back as false
+    const typesArr = [ {lowercase }, { uppercase }, { number }, { symbol }, {symbol2} ].filter(item => Object.values(item)[0]);
+    
+    if (Count === 0) {
+      return '';
+    }
+    for (let i = 0; i < length; i += Count) {
+      typesArr.forEach(type => {
+        const function1 = Object.keys(type)[0];
+        
+        generatedPassword += randomfunction[function1]();
+      });
+    }
+    //if length isnt diviable by types counted evenly the password with be returned too long this line cuts it down to the length
+    var password = generatedPassword.slice(0, length); 
+    return password;
+  }
