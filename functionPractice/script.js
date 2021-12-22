@@ -31,3 +31,8 @@ const randomfunction = {
   function randomNumber() {
     return Math.floor(Math.random() * 10)
   }
+
+  function randomSymbol() {
+    const symbols = "!@#$%^&*(){}[]?"
+    return symbols[Math.floor(Math.random() * symbols.length)]
+  }
