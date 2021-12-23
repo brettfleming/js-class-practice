@@ -25,3 +25,9 @@ let day2Temp = document.getElementById('day2T');
 let day3Temp = document.getElementById('day3T');
 let day4Temp = document.getElementById('day4T');
 let day5Temp = document.getElementById('day5T');
+
+let day1Humidity = document.getElementById('day1H');
+let day2Humidity = document.getElementById('day2H');
+let day3Humidity = document.getElementById('day3H');
+let day4Humidity = document.getElementById('day4H');
+let day5Humidity = document.getElementById('day5H');
