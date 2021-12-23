@@ -19,3 +19,9 @@ let day2Wind = document.getElementById('day2W');
 let day3Wind = document.getElementById('day3W');
 let day4Wind = document.getElementById('day4W');
 let day5Wind = document.getElementById('day5W');
+
+let day1Temp = document.getElementById('day1T');
+let day2Temp = document.getElementById('day2T');
+let day3Temp = document.getElementById('day3T');
+let day4Temp = document.getElementById('day4T');
+let day5Temp = document.getElementById('day5T');
