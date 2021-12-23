@@ -13,3 +13,9 @@ let todaysTemp = document.getElementById('temperature');
 let todaysWindSpeed = document.getElementById('wind-speed');
 let todayshumidity = document.getElementById('humidity');
 let pastCities = document.getElementById('pastCities');
+
+let day1Wind = document.getElementById('day1W');
+let day2Wind = document.getElementById('day2W');
+let day3Wind = document.getElementById('day3W');
+let day4Wind = document.getElementById('day4W');
+let day5Wind = document.getElementById('day5W');
