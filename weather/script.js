@@ -31,3 +31,6 @@ let day2Humidity = document.getElementById('day2H');
 let day3Humidity = document.getElementById('day3H');
 let day4Humidity = document.getElementById('day4H');
 let day5Humidity = document.getElementById('day5H');
+
+let day1Img = document.getElementById('day1Img');
+const listOfcities = []
