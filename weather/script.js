@@ -125,3 +125,11 @@ function citiesPastList() {
     
 });
             }
+
+            function int(event) {
+                event.preventDefault();
+                searchCityWeather();
+                searchCityForecast();
+            
+        }
+        
