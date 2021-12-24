@@ -34,3 +34,15 @@ let day5Humidity = document.getElementById('day5H');
 
 let day1Img = document.getElementById('day1Img');
 const listOfcities = []
+
+function citiesPastList() {
+    listOfcities = JSON.parse(localStorage.getItem('cities')) || [];
+    listOfcities.forEach(cities => {
+        console.log(cities)
+        let button = document.createElement('button');
+        button.classList.add("pastCitiesBtn");
+        console.log(button);
+        button.textContent = cities
+        pastDrinks.append(button);
+    })}
+    citiesPastList()
