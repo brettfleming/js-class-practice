@@ -46,3 +46,5 @@ function citiesPastList() {
         pastDrinks.append(button);
     })}
     citiesPastList()
+
+    const apiKey = "e85bf845a5b6e3a8c317ab669bc8f0f9";
