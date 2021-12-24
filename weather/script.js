@@ -102,4 +102,26 @@ function citiesPastList() {
             let humidity3 = data['list']['16']['main']['humidity'];
             let humidity4 = data['list']['24']['main']['humidity'];
             let humidity5 = data['list']['32']['main']['humidity'];
+            day1Temp.textContent = temp1;
+            day2Temp.textContent = temp2;
+            day3Temp.textContent = temp3;
+            day4Temp.textContent = temp4;
+            day5Temp.textContent = temp5;
+
+            day1Wind.textContent = wind1;
+            day2Wind.textContent = wind2;
+            day3Wind.textContent = wind3;
+            day4Wind.textContent = wind4;
+            day5Wind.textContent = wind5;
+
+            day1Humidity.textContent = humidity1 + "%";
+            day2Humidity.textContent = humidity2 + "%";
+            day3Humidity.textContent = humidity3 + "%";
+            day4Humidity.textContent = humidity4 + "%";
+            day5Humidity.textContent = humidity5 + "%";
+
+        console.log(data);
+        console.log(img1);
+    
+});
             }
