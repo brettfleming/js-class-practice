@@ -76,3 +76,15 @@ function citiesPastList() {
         
     });
     } 
+    function searchCityForecast() {
+        city = searchedCity.value;
+        let forecastApiUrl = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial&cnt=65&appid=" + apiKey;
+        fetch(forecastApiUrl)
+            .then(function(response) {
+                if (!response.ok) {
+                    throw response.json();
+                }
+                return response.json();
+            })
+            .then(function(data) {
+            }
