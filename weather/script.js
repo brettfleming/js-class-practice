@@ -87,4 +87,19 @@ function citiesPastList() {
                 return response.json();
             })
             .then(function(data) {
+                let temp1 = data['list']['0']['main']['temp'];
+            let temp2 = data['list']['8']['main']['temp'];
+            let temp3 = data['list']['16']['main']['temp'];
+            let temp4 = data['list']['24']['main']['temp'];
+            let temp5 = data['list']['32']['main']['temp'];
+            let wind1 = data['list']['0']['wind']['speed'];
+            let wind2 = data['list']['8']['wind']['speed'];
+            let wind3 = data['list']['16']['wind']['speed'];
+            let wind4 = data['list']['24']['wind']['speed'];
+            let wind5 = data['list']['32']['wind']['speed'];
+            let humidity1 = data['list']['0']['main']['humidity'];
+            let humidity2 = data['list']['8']['main']['humidity'];
+            let humidity3 = data['list']['16']['main']['humidity'];
+            let humidity4 = data['list']['24']['main']['humidity'];
+            let humidity5 = data['list']['32']['main']['humidity'];
             }
