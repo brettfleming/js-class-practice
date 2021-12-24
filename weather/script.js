@@ -48,3 +48,31 @@ function citiesPastList() {
     citiesPastList()
 
     const apiKey = "e85bf845a5b6e3a8c317ab669bc8f0f9";
+
+    function searchCityWeather() {
+        city = searchedCity.value;
+        let apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" +  city + '&units=imperial&cnt=65&appid=' + apiKey;
+        console.log(city)
+        cityName.textContent = city
+        fetch(apiUrl)
+            .then(function(response) {
+                if (!response.ok) {
+                    throw response.json();
+                }
+                return response.json();
+            })
+            .then(function(data) {
+                let temp =data['main']['temp'];
+                let windSpeed = data['wind']['speed'];
+                let humidity = data['main']['humidity'];
+    
+    
+                todaysTemp.textContent = temp;
+                todayshumidity.textContent = humidity + '%';
+                todaysWindSpeed.textContent = windSpeed;
+                
+    
+            console.log(data);
+        
+    });
+    } 
