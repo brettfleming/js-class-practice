@@ -52,3 +52,5 @@ function getHourClass(hourNumber){
        return "future"
     }
 }
+
+$(".container").on('click', ".saveBtn", savefunc)
