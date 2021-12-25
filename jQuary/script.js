@@ -42,3 +42,13 @@ function savefunc() {
     console.log(remindertext);
     localStorage.setItem(timeid, remindertext );
 }
+
+function getHourClass(hourNumber){
+    if (hourNumber < parseInt(moment().format("HH"))) {
+       return "past";
+    } else if (hourNumber === parseInt(moment().format("HH"))) {
+       return "present"
+    } else if (hourNumber > parseInt(moment().format("HH") ))  {
+       return "future"
+    }
+}
