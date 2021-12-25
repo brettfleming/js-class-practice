@@ -27,5 +27,12 @@ day.forEach(function(today) {
     data.val(reminderdata);
     let saveButton = $("<h3> Save </h3>")
     let save = $("<button>").addClass("saveBtn");
+    //appending all the elements together to give the planner its list like structure
+    $(".container").append(row);
+    save.append(saveButton); 
+    reminder.append(data);
+    row.append(timeblock);
+    row.append(reminder);
+    row.append(save);
      
 });
