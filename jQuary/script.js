@@ -23,6 +23,9 @@ day.forEach(function(today) {
     let timeblock = $("<div>").text(`${today.hour}`).addClass("hour")
     let reminder = $("<div>").addClass(" col-md-8 description").addClass(hourClass);
     let data = $("<textarea>").addClass("col-md-12").attr("id", today.hourNumber);
-    
+    let reminderdata = localStorage.getItem(today.hourNumber);
+    data.val(reminderdata);
+    let saveButton = $("<h3> Save </h3>")
+    let save = $("<button>").addClass("saveBtn");
      
 });
