@@ -16,3 +16,13 @@ const timeOfDay = [
     "16",
     "17"
 ]
+
+day.forEach(function(today) {
+    let row = $("<div>").addClass("row");
+    let hourClass = getHourClass(today.hourNumber)
+    let timeblock = $("<div>").text(`${today.hour}`).addClass("hour")
+    let reminder = $("<div>").addClass(" col-md-8 description").addClass(hourClass);
+    let data = $("<textarea>").addClass("col-md-12").attr("id", today.hourNumber);
+    
+     
+});
