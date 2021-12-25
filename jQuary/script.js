@@ -36,3 +36,9 @@ day.forEach(function(today) {
     row.append(save);
      
 });
+function savefunc() {
+    const remindertext = $(this).siblings(".description").children().val();
+    const timeid = $(this).siblings(".description").children().attr("id");
+    console.log(remindertext);
+    localStorage.setItem(timeid, remindertext );
+}
