@@ -107,3 +107,5 @@ function init() {
     userPrompt();
     
 }
+
+init();
