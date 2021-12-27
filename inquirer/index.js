@@ -102,3 +102,8 @@ or reach out to me by email ${data.email}
     })
     
 }
+
+function init() {
+    userPrompt();
+    
+}
