@@ -52,3 +52,53 @@ const questions = [
         message: "Is there a test included?"
     }
 ];
+
+function userPrompt() {
+    inquirer.prompt(questions)
+    .then(data => {
+       const readme =  `
+<h1>${data.title} </h1>
+    
+![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Description
+${data.description}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## License
+![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+
+This application is covered by the ${data.license} license. 
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+    
+## Questions
+Reach out to me on GitHub: [${data.username}](https://github.com/${data.username})
+or reach out to me by email ${data.email}
+`
+
+
+        fs.writeFile('generatedReadMe.md', readme, (err) => {
+            if ( err ) console.log('err:', err);
+        })
+    })
+    
+}
