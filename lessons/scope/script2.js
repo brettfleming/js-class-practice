@@ -1,6 +1,6 @@
 // The scope of `random` is too loose 
 const random = Math.floor(Math.random() * 3);
-const Name = 'Nala';
+const name = 'Nala';
 
 const getRandEvent = () => {
   if (random === 0) {
@@ -41,5 +41,5 @@ const days = getTrainingDays(event);
 // Define a `name` variable. Use it as an argument after updating logEvent and logTime 
 
 
-logEvent(event);
-logTime(days);
+logEvent(name, event);
+logTime(name, days);
