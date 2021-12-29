@@ -29,9 +29,9 @@ const getTrainingDays = event => {
   } else if (event === 'Pentathlon') {
     days = 200;
   } else if (event === '5K') {
-    days = 200;
+    days = 30;
   } else if (event === 'Spartan Race') {
-    days = 200;
+    days = 300;
   }
 
   return days;
