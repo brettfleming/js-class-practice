@@ -1,0 +1,1 @@
+let vacationSpots = ['New York', 'L.A.', 'Boston']
