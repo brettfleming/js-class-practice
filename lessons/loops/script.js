@@ -12,3 +12,7 @@ for (let counter = 5; counter < 11; counter++) {
   for (i; i < 3; i++) {
     console.log(vacationSpots[i]);
   }
+//doing a for loop in reverse
+  for (let counter = 3; counter >= 0; counter--){
+    console.log(counter);
+  }
