@@ -11,9 +11,9 @@ const getRandEvent = () => {
   } else if (random === 2) {
     return 'Pentathlon';
   } else if (random === 3) {
-    return 'Pentathlon';
+    return '5K';
   } else if (random === 4) {
-    return 'Pentathlon';
+    return 'Spartan Race';
   }
 
 };
