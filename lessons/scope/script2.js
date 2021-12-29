@@ -1,5 +1,5 @@
 // The scope of `random` is too loose 
-const random = Math.floor(Math.random() * 4);
+const random = Math.floor(Math.random() * 5);
 const name = 'Nala';
 
 const getRandEvent = () => {
@@ -10,7 +10,12 @@ const getRandEvent = () => {
     return 'Triathlon';
   } else if (random === 2) {
     return 'Pentathlon';
+  } else if (random === 3) {
+    return 'Pentathlon';
+  } else if (random === 4) {
+    return 'Pentathlon';
   }
+
 };
 
 // The scope of `days` is too tight 
