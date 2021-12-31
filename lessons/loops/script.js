@@ -4,6 +4,8 @@ let vacationSpots = ['New York', 'L.A.', 'Boston', 'Canada', 'Mexico']
 console.log(vacationSpots[0]);
 console.log(vacationSpots[1]);
 console.log(vacationSpots[2]);
+console.log(vacationSpots[3]);
+console.log(vacationSpots[4]);
 //A basic for loop 
 for (let counter = 5; counter < 11; counter++) {
     console.log(counter);
