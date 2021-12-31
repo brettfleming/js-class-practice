@@ -1,4 +1,4 @@
-let vacationSpots = ['New York', 'L.A.', 'Boston']
+let vacationSpots = ['New York', 'L.A.', 'Boston', 'Canada', 'Mexico']
 
 //This is done the long way without loops
 console.log(vacationSpots[0]);
