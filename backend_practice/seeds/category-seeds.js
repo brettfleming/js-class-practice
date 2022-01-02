@@ -22,6 +22,9 @@ const categoryData = [
   {
     category_name: 'office',
   },
+  {
+    category_name: 'kitchen',
+  },
 ];
 
 const seedCategories = () => Category.bulkCreate(categoryData);
