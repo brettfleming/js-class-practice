@@ -15,6 +15,10 @@ Category.init(
     category_name: {
       type: DataTypes.STRING,
       allowNull: false
+    }, 
+    category_aberviation: {
+      type: DataTypes.STRING,
+      allowNull: false
     }
   },
   {
