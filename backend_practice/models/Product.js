@@ -15,6 +15,10 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
+    DPCI: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
     product_name: {
       type: DataTypes.STRING,
       allowNull: false
