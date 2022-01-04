@@ -23,7 +23,7 @@ for (let counter = 5; counter < 11; counter++) {
   })
 
 const vacationSpots = ['Bali', 'Paris', 'Tulum'];
-
+// iterating through an array with a for loop using .length as the condition
 for (let i = 0; i < vacationSpots.length; i++){
   console.log(`I would love to visit ${vacationSpots[i]}`);
 }
