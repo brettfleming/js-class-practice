@@ -40,3 +40,6 @@ for (let i = 0; i < bobsFollowers.length; i++) {
     }
   }
 };
+//while loops
+const cards = ['diamond', 'spade', 'heart', 'club'];
+let currentCard = 'diamond'
