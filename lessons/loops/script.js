@@ -58,4 +58,10 @@ do {
   cupsAdded++
   console.log(cupsAdded + ' cup was added') 
  } while (cupsAdded < cupsOfSugarNeeded);
-  
+
+//break key work
+ const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+
+for (let i = 0; i < rapperArray.length; i++) {
+  console.log(rapperArray[i])
+}
