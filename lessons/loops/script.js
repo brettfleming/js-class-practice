@@ -30,3 +30,4 @@ for (let i = 0; i < vacationSpots.length; i++){
 
 //nested for loops
 let bobsFollowers =['jim', 'tim', 'kim', 'pam']
+let tinasFollowers = ['jim', 'tom', 'pam']
