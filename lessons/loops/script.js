@@ -31,3 +31,12 @@ for (let i = 0; i < vacationSpots.length; i++){
 //nested for loops
 let bobsFollowers =['jim', 'tim', 'kim', 'pam']
 let tinasFollowers = ['jim', 'tom', 'pam']
+let mutualFollowers = []
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+  for (let j = 0; j < tinasFollowers.length; j++) {
+    if (bobsFollowers[i] === tinasFollowers[j]) {
+      mutualFollowers.push(bobsFollowers[i]);
+    }
+  }
+};
