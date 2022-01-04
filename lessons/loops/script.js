@@ -49,3 +49,7 @@ while (currentCard !== 'spade') {
 
   console.log(currentCard)
 }
+//do while loops
+let cupsOfSugarNeeded = 5
+
+let cupsAdded = 0
