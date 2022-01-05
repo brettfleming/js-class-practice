@@ -1,5 +1,16 @@
 //higher order functions
 
+//key points
+    //Abstraction allows us to write complicated code in a way that’s easy to reuse, debug, and understand for human readers
+
+    //We can work with functions the same way we would any other type of data including reassigning them to new variables
+
+    //JavaScript functions are first-class objects, so they have properties and methods like any object
+
+    //Functions can be passed into other functions as parameters
+
+    //A higher-order function is a function that either accepts functions as parameters, returns a function, or both
+
 //this function has a long discriptive name which is good but it could be terrible to have to repeat
 const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
     for(let i = 1; i <= 1000000; i++) {
