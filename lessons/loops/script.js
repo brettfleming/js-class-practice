@@ -65,6 +65,7 @@ do {
 for (let i = 0; i < rapperArray.length; i++) {
   if (rapperArray[i] === "Notorious B.I.G." ){
     console.log(rapperArray[i])
+    //the break key word stops the loop
     break;
   }
   console.log(rapperArray[i])
