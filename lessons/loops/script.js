@@ -80,9 +80,12 @@ for (let i = 0; i < input.length; i++) {
   for (let j = 0; j < vowels.length; j++) {
     // console.log('j is '+ j);
     if (input[i] === vowels[j]){
-      resultArray.push(input[i]);
-      console.log(input[i]);
+      if(input[i] === 'e' || input[i] === 'u'){
+        resultArray.push(input[i]);
+        resultArray.push(input[i]);
+      } else { resultArray.push(input[i]);
+      }
     }
   }
 }
-console.log(resultArray)
+console.log(resultArray.join('').toUpperCase());
