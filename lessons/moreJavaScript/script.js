@@ -28,17 +28,22 @@ const timeFuncRuntime = funcParameter => {
   let t2 = Date.now();
   return t2 - t1;
 };
- //when you pass the function through dont include the ()
+ //when you pass the function through dont include the ()'s that would pass through what the function returns not the function itself
 let time2p2 = timeFuncRuntime(checkThatTwoPlusTwoEqualsFourAMillionTimes);
 
+//this fucntion takes in a function and a value as parameters
+//what this function does is it evaluates the results of the function that is passed through it to make sure it gets the same result twice
 let checkConsistentOutput = (func, val) => {
     let firstTry = func(val);
     let secondTry = func(val);
     if (firstTry === secondTry) {
+        //if both attempts return the same thing the fist attempt is returned
         return firstTry;
     } else {
+        //if it doesnt evaluate to the same thing twice this message is returned 
         return 'This function returned inconsistent results';
     }
 }
-
+// this is how you would invoke the function
+// dont forget to drop the ()'s for the function you are passing through
 checkConsistentOutput(addTwo, 2);
