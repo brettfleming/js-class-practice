@@ -15,3 +15,28 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   is2p2();
   //just confirming that the functions real name is checkThatTwoPlusTwoEqualsFourAMillionTimes
   console.log(is2p2.name)
+
+
+
+const addTwo = num => num + 2;
+
+const timeFuncRuntime = funcParameter => {
+  let t1 = Date.now();
+  funcParameter();
+  let t2 = Date.now();
+  return t2 - t1;
+};
+
+let time2p2 = timeFuncRuntime(checkThatTwoPlusTwoEqualsFourAMillionTimes);
+
+let checkConsistentOutput = (func, val) => {
+    let firstTry = func(val);
+    let secondTry = func(val);
+    if (firstTry === secondTry) {
+        return firstTry;
+    } else {
+        return 'This function returned inconsistent results';
+    }
+}
+
+checkConsistentOutput(addTwo, 2);
