@@ -53,7 +53,7 @@ while (currentCard !== 'spade') {
 let cupsOfSugarNeeded = 5
 
 let cupsAdded = 0
-
+//do while loops let you have a while loop exicute at least once before checking the conditon
 do {
   cupsAdded++
   console.log(cupsAdded + ' cup was added') 
