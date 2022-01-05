@@ -9,8 +9,9 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
     }
   }
   // we can assign our long discriptive name inside another function varible to make it easier to call multiplue times
+  // notice that when you input the old name you drop the ()'s form the end this is becasue you want to pass the function its self into the new varible not what the function returns
   let is2p2 = checkThatTwoPlusTwoEqualsFourAMillionTimes
-  
+  //its much easier to call is2p2 a bunch of times then calling checkThatTwoPlusTwoEqualsFourAMillionTimes a bunch of times but you still get to keep the discriptive name
   is2p2();
-  
+  //just confirming that the functions real name is checkThatTwoPlusTwoEqualsFourAMillionTimes
   console.log(is2p2.name)
