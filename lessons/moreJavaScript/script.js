@@ -17,16 +17,18 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   console.log(is2p2.name)
 
 
-
+//simple function add 2 to a number
 const addTwo = num => num + 2;
 
+//this function takes another function in as a parameter and checks the run time of that funcion
 const timeFuncRuntime = funcParameter => {
   let t1 = Date.now();
+  //this is how you will call the function
   funcParameter();
   let t2 = Date.now();
   return t2 - t1;
 };
-
+ //when you pass the function through dont include the ()
 let time2p2 = timeFuncRuntime(checkThatTwoPlusTwoEqualsFourAMillionTimes);
 
 let checkConsistentOutput = (func, val) => {
