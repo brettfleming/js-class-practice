@@ -70,3 +70,11 @@ for (let i = 0; i < rapperArray.length; i++) {
   console.log(rapperArray[i])
 }
 console.log("And if you don't know, now you know.")
+
+let input = 'turpentine and turtles'
+let vowels = ['a', 'e', 'i', 'o', 'u'];
+let resultArray = []
+
+for (let i = 0; i < input.length; i++) {
+  
+}
