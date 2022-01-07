@@ -114,7 +114,7 @@ const startsWithS = animals.findIndex(animal => {
 //the reduce Method
 const newNumbers = [1, 3, 5, 7];
 
-
+//the reduce method reduces the array down to a single value
 const newSum = newNumbers.reduce((accumulator, currentValue) => {
   console.log('The value of accumulator: ', accumulator);
   console.log('The value of currentValue: ', currentValue);
