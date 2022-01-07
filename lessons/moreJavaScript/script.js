@@ -58,3 +58,11 @@ let checkConsistentOutput = (func, val) => {
 // this is how you would invoke the function
 // dont forget to drop the ()'s for the function you are passing through
 checkConsistentOutput(addTwo, 2);
+
+//Iterators
+
+const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+fruits.forEach(fruit => {
+  console.log(`I want to eat a ${fruit}`);
+});
