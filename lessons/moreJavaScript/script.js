@@ -62,7 +62,7 @@ checkConsistentOutput(addTwo, 2);
 //Iterators
 
 const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
-
+//the forEach method exicutes the callback function to all of the elements in the array
 fruits.forEach(fruit => {
   console.log(`I want to eat a ${fruit}`);
 });
