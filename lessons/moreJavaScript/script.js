@@ -92,3 +92,11 @@ const smallNumbers = randomNumbers.filter(number => {
 })
 
 console.log(smallNumbers);
+
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+//filtering out all the words less then 7 characters long
+const longFavoriteWords = favoriteWords.filter(word => {
+  return word.length > 7
+})
+ console.log(longFavoriteWords)
