@@ -70,12 +70,14 @@ fruits.forEach(fruit => {
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 //map does the same thing as the foreach method except the map method returns a new array 
 const secretMessage = animals.map(animal => {
+    //this is returning the first letter of each element in the array
   return animal[0]
 })
+console.log(secretMessage.join(''));
 
 
 const bigNumbers = [100, 200, 300, 400, 500];
-
+//mapping an array of numbers divided by 100
 const smallNumbers= bigNumbers.map(number => {
   return number/100 
 })
