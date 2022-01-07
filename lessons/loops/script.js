@@ -36,6 +36,7 @@ let mutualFollowers = []
 for (let i = 0; i < bobsFollowers.length; i++) {
   //the nested for loop lets you iterate through another array
   for (let j = 0; j < tinasFollowers.length; j++) {
+    //if the follower follows both bob and tina they get added to the mutal friends array show below;
     if (bobsFollowers[i] === tinasFollowers[j]) {
       mutualFollowers.push(bobsFollowers[i]);
     }
