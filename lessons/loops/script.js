@@ -79,6 +79,7 @@ console.log("And if you don't know, now you know.")
 //this is a whale language translator
 //it takes the input phrase or word and changes it into whale 
 let input = 'turpentine and turtles'
+//whales only use vowels execpt for y you can see the option of letters in the array below
 let vowels = ['a', 'e', 'i', 'o', 'u'];
 let resultArray = []
 
