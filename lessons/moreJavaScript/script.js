@@ -66,3 +66,9 @@ const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 fruits.forEach(fruit => {
   console.log(`I want to eat a ${fruit}`);
 });
+//the map method
+const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+//map does the same thing as the foreach method except the map method returns a new array 
+const secretMessage = animals.map(animal => {
+  return animal[0]
+})
