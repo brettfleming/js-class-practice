@@ -88,7 +88,9 @@ for (let i = 0; i < input.length; i++) {
   //the second for loop takes the letter from above and commpares it to the to the vowels array and if it matches it addes it to the result array
   for (let j = 0; j < vowels.length; j++) {
     // console.log('j is '+ j);
+    // this if statement is what compares the two inputs 
     if (input[i] === vowels[j]){
+      // so in whale they double e's and u's so this checks for that and doubles them when needed
       if(input[i] === 'e' || input[i] === 'u'){
         resultArray.push(input[i]);
         resultArray.push(input[i]);
