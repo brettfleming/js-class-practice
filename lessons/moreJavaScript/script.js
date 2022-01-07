@@ -82,3 +82,13 @@ const smallNumbers= bigNumbers.map(number => {
   return number/100 
 })
 console.log(smallNumbers);
+
+//the filter method
+
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+//the filter method creates a new array like the map method but filters the mothod based on the condtion that you pass through it
+const smallNumbers = randomNumbers.filter(number => {
+  return number < 250; 
+})
+
+console.log(smallNumbers);
