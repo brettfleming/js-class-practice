@@ -85,6 +85,7 @@ let resultArray = []
 // the first for loop iterats through each letter in the input phrase
 for (let i = 0; i < input.length; i++) {
   // console.log('i is '+ i);
+  //the second for loop takes the letter from above and commpares it to the to the vowels array and if it matches it addes it to the result array
   for (let j = 0; j < vowels.length; j++) {
     // console.log('j is '+ j);
     if (input[i] === vowels[j]){
