@@ -57,8 +57,10 @@ let cupsOfSugarNeeded = 5
 let cupsAdded = 0
 //do while loops let you have a while loop exicute at least once before checking the conditon
 do {
+  //this code will exicute at least once
   cupsAdded++
   console.log(cupsAdded + ' cup was added') 
+  //this is the contion in which the code above will either continue running or stop running
  } while (cupsAdded < cupsOfSugarNeeded);
 
 //break key work
