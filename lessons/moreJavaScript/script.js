@@ -72,3 +72,11 @@ const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'oct
 const secretMessage = animals.map(animal => {
   return animal[0]
 })
+
+
+const bigNumbers = [100, 200, 300, 400, 500];
+
+const smallNumbers= bigNumbers.map(number => {
+  return number/100 
+})
+console.log(smallNumbers);
