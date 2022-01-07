@@ -82,7 +82,7 @@ let input = 'turpentine and turtles'
 //whales only use vowels execpt for y you can see the option of letters in the array below
 let vowels = ['a', 'e', 'i', 'o', 'u'];
 let resultArray = []
-
+// the first for loop iterats through each letter in the input phrase
 for (let i = 0; i < input.length; i++) {
   // console.log('i is '+ i);
   for (let j = 0; j < vowels.length; j++) {
