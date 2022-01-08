@@ -139,8 +139,9 @@ let unnecessaryWords = ['extremely', 'literally', 'actually' ];
 
 let storyWords = story.split(' ');
 console.log(storyWords.length)
-
+//filtering out the unnecessaryWords from the story
 let betterWords = storyWords.filter(word => {
+    //.includes normally ivaluates to true when the the words match but using the inverse operator we can change that
   return !unnecessaryWords.includes(word)
 });
 
