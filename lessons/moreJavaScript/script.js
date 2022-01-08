@@ -161,7 +161,9 @@ betterWords.forEach(word => {
 console.log(wordCount)
 
 let sentences = 0;
+//counting the sentecnes
 betterWords.forEach(word => {
+    //this checks to see if a word ends with a . or an ! to count the sentences
   if (word[word.length-1] === '.' || word[word.length-1] === '!') {
     sentences+=1;
   }
