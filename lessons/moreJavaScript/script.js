@@ -149,7 +149,9 @@ let betterWords = storyWords.filter(word => {
 console.log(betterWords);
 
 let wordCount = 0
+//counting the amount of times words are overused
 betterWords.forEach(word => {
+    //this checks if the word in the story is also in the overusedWoed array and adds to the wordcount if true
   overusedWords.forEach(overusedWord => {
     if(word === overusedWord) {
       wordCount++
