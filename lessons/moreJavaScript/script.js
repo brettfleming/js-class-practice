@@ -146,3 +146,13 @@ let betterWords = storyWords.filter(word => {
 
 
 console.log(betterWords);
+
+let wordCount = 0
+betterWords.forEach(word => {
+  overusedWords.forEach(overusedWord => {
+    if(word === overusedWord) {
+      wordCount++
+    }
+  })
+})
+console.log(wordCount)
