@@ -163,3 +163,5 @@ betterWords.forEach(word => {
     sentences+=1;
   }
 });
+
+console.log(`the total word count is ${storyWords.length}, the number of sentences is ${sentences}, lastly the count for oversued words is ${wordCount}. `);
