@@ -156,3 +156,10 @@ betterWords.forEach(word => {
   })
 })
 console.log(wordCount)
+
+let sentences = 0;
+betterWords.forEach(word => {
+  if (word[word.length-1] === '.' || word[word.length-1] === '!') {
+    sentences+=1;
+  }
+});
