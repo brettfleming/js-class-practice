@@ -20,6 +20,7 @@ const timeOfDay = [
 ]
 
 day.forEach(function(today) {
+    //selecting all elements and generatting the whole thing dynamiclly (this was fun but unnecessary)
     let row = $("<div>").addClass("row");
     let hourClass = getHourClass(today.hourNumber)
     let timeblock = $("<div>").text(`${today.hour}`).addClass("hour")
