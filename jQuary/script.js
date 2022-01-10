@@ -45,7 +45,7 @@ function savefunc() {
     console.log(remindertext);
     localStorage.setItem(timeid, remindertext );
 }
-
+//this fuction gets the classes for the hours of the day so the blocks change color 
 function getHourClass(hourNumber){
     if (hourNumber < parseInt(moment().format("HH"))) {
        return "past";
