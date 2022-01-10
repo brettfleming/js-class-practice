@@ -1,4 +1,5 @@
 let today = moment();
+//getting the date
 $("#currentDay").text(today.format("dddd MMMM Do YYYY"))
 
 const day = [ 
