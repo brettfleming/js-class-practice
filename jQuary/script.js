@@ -55,5 +55,5 @@ function getHourClass(hourNumber){
        return "future"
     }
 }
-
+//this is the event listener for a click on the save button
 $(".container").on('click', ".saveBtn", savefunc)
