@@ -5,3 +5,7 @@ let fasterShip = {
   numCrew: 5,
   flightPath: ['Venus', 'Mars', 'Saturn']
   }
+
+let crewCount = spaceship.numCrew;
+
+let planetArray = spaceship.flightPath;
