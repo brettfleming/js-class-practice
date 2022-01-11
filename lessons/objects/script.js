@@ -9,3 +9,17 @@ let fasterShip = {
 let crewCount = spaceship.numCrew;
 
 let planetArray = spaceship.flightPath;
+
+let spaceship2 = {
+    'Fuel Type' : 'Turbo Fuel',
+    'Active Mission' : true,
+    homePlanet : 'Earth', 
+    numCrew: 5
+   };
+  
+  let propName =  'Active Mission';
+  
+  let isActive = spaceship2['Active Mission']
+  
+  
+  console.log(isActive)
