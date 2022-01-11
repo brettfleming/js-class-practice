@@ -16,7 +16,7 @@ let spaceship2 = {
     homePlanet : 'Earth', 
     numCrew: 5
    };
-  
+  //bracket notation is used when the key has numbers, spaces, or special characters in them
   let propName =  'Active Mission';
   
   let isActive = spaceship2['Active Mission']
