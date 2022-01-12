@@ -9,9 +9,9 @@ let fasterShip = {
 let crewCount = spaceship.numCrew;
 
 let planetArray = spaceship.flightPath;
-
+//you can change the value of an object property with dot or bracket notation
 spaceship.color = 'glorious gold'
-
+//if no property exist with that name it will be created
 spaceship.numEngines = 6
 
 delete spaceship['Secret Mission'];
