@@ -41,7 +41,7 @@ const alienShip = {
     console.log('Spim... Borp... Glix... Blastoff!')
   }
 }
-
+//when you want to evoke the method use dot notation and add ()'s at the end
 alienShip.retreat();
 
 alienShip.takeOff();
