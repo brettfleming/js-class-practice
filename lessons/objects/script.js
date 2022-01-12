@@ -10,6 +10,12 @@ let crewCount = spaceship.numCrew;
 
 let planetArray = spaceship.flightPath;
 
+spaceship.color = 'glorious gold'
+
+spaceship.numEngines = 6
+
+delete spaceship['Secret Mission'];
+
 let spaceship2 = {
     'Fuel Type' : 'Turbo Fuel',
     'Active Mission' : true,
