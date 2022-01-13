@@ -76,7 +76,7 @@ let spaceship3 = {
   }
 }; 
 
-
+//when selecting you might need to use both bracket and dot notation
 let capFave = spaceship3.crew.captain['favorite foods'][0]
 
 let firstPassenger = spaceship3.passengers[0]
