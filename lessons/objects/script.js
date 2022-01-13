@@ -53,6 +53,7 @@ let spaceship3 = {
     model: "91031-XLT",
     focalLength: 2032 
   },
+  //the crew object has more objects in it
   crew: {
     captain: { 
       name: 'Sandra', 
