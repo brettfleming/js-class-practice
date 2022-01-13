@@ -74,3 +74,6 @@ let spaceship3 = {
     }
   }
 }; 
+
+
+let capFave = spaceship3.crew.captain['favorite foods'][0]
