@@ -47,7 +47,7 @@ alienShip.retreat();
 alienShip.takeOff();
 //nested objects
 let spaceship3 = {
-  passengers: null,
+  passengers: [{name: 'steve'}],
   telescope: {
     yearBuilt: 2018,
     model: "91031-XLT",
