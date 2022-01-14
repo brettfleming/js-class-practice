@@ -55,3 +55,20 @@ const robot3 = {
   robot3.numOfSensors = 100
   
   console.log(robot3.numOfSensors)
+
+  //objects factories
+  //kinda like classes 
+
+  const robotFactory = (model, mobile) => {
+    return {
+      model: model,
+      mobile: mobile,
+      beep(){
+          console.log('beep boop')
+      }
+    }
+  }
+  
+  const tinCan = robotFactory('P-500', true);
+  
+  tinCan.beep()
