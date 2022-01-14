@@ -6,5 +6,5 @@ const robot = {
       }
   };
 
-  
+// console.log's, I am 1E78V2 and my current energy level is 100   
 console.log(robot.provideInfo())
