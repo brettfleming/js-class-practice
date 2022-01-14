@@ -99,3 +99,31 @@ greenEnergy(spaceship4);
 remotelyDisable(spaceship4);
 //The console.log returns this { 'Fuel Type': 'avocado oil', homePlanet: 'Earth', disabled: true }
 console.log(spaceship4)
+
+//For in loops
+let spaceship5 = {
+  crew: {
+  captain: { 
+      name: 'Lily', 
+      degree: 'Computer Engineering', 
+      cheerTeam() { console.log('You got this!') } 
+      },
+  'chief officer': { 
+      name: 'Dan', 
+      degree: 'Aerospace Engineering', 
+      agree() { console.log('I agree, captain!') } 
+      },
+  medic: { 
+      name: 'Clementine', 
+      degree: 'Physics', 
+      announce() { console.log(`Jets on!`) } },
+  translator: {
+      name: 'Shauna', 
+      degree: 'Conservation Science', 
+      powerFuel() { console.log('The tank is full!') } 
+      }
+  }
+}; 
+for (let crewMember in spaceship5.crew) {
+console.log(`${crewMember}: ${spaceship5.crew[crewMember].name}`);
+}
