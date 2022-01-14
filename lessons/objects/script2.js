@@ -82,3 +82,22 @@ const robot3 = {
   const tinCan = robotFactory('P-500', true);
   
   tinCan.beep()
+
+  //destructured assignment
+
+  const robot4 = {
+    model: '1E78V2',
+    energyLevel: 100,
+    functionality: {
+      beep() {
+        console.log('Beep Boop');
+      },
+      fireLaser() {
+        console.log('Pew Pew');
+      },
+    }
+  };
+  
+  const {functionality} = robot4
+  
+  functionality.beep()
