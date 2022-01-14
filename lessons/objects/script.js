@@ -90,3 +90,7 @@ let spaceship4 = {
 let greenEnergy = obj => {
   obj['Fuel Type'] = 'avocado oil'
 }
+
+let remotelyDisable = obj => {
+  obj.disabled = true
+}
