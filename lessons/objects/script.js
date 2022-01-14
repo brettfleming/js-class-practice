@@ -97,5 +97,5 @@ let remotelyDisable = obj => {
 
 greenEnergy(spaceship4);
 remotelyDisable(spaceship4);
-
+//The console.log returns this { 'Fuel Type': 'avocado oil', homePlanet: 'Earth', disabled: true }
 console.log(spaceship4)
