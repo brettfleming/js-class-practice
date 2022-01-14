@@ -1,5 +1,5 @@
 const menu = {
-    _courses = {
+    _courses: {
         appetizers: [],
         mains: [],
         desserts: [],
@@ -43,11 +43,26 @@ const menu = {
   
     },
     generateRandomMeal() {
-      const appetizer = getRandomDishFromCourse(appetizers);
-      const main = getRandomDishFromCourse(mains);
-      const dessert = getRandomDishFromCourse(desserts);
+      const appetizer = this.getRandomDishFromCourse('appetizers');
+      const main = this.getRandomDishFromCourse('mains');
+      const dessert = this.getRandomDishFromCourse('desserts');
       console.log(`The appetizer is ${appetizer.name}, the main course is ${main.name}, finally dessert will be ${dessert.name}, total price: ${appetizer.price + main.price + dessert.price} `)
   
     }
   
   };
+  
+  menu.addDishToCourse('appetizers', 'chicken wings', 8);
+  menu.addDishToCourse('appetizers', 'chicken tenders', 5);
+  menu.addDishToCourse('appetizers', 'onion rings', 6);
+  
+  menu.addDishToCourse('mains', 'chicken alfrado', 23);
+  menu.addDishToCourse('mains', 'Ribeye steak', 30);
+  menu.addDishToCourse('mains', 'chicken cesear salad', 15);
+  
+  menu.addDishToCourse('desserts', 'chacolate cake', 10);
+  menu.addDishToCourse('desserts', 'cookie and ice cream', 7);
+  menu.addDishToCourse('desserts', 'strawberry cheesecake', 12);
+  
+  menu.generateRandomMeal()
+  
