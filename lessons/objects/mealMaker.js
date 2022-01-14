@@ -38,6 +38,8 @@ const menu = {
     },
     getRandomDishFromCourse(courseName) {
         const dishes = this._courses[courseName]
+        //generates a random number between 0 and the length of the dishes array
+        //math.floor makes it a whole number
         const randomIndex = Math.floor(Math.random() * dishes.length);
         return dishes[randomIndex]
 
