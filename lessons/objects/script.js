@@ -94,3 +94,8 @@ let greenEnergy = obj => {
 let remotelyDisable = obj => {
   obj.disabled = true
 }
+
+greenEnergy(spaceship4);
+remotelyDisable(spaceship4);
+
+console.log(spaceship4)
