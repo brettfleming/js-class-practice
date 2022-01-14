@@ -68,6 +68,16 @@ const robot3 = {
       }
     }
   }
+// you can use short hand to do this as well
+        //   const robotFactory = (model, mobile) => {
+        //     return {
+        //       model,
+        //       mobile,
+        //       beep(){
+        //           console.log('beep boop')
+        //       }
+        //     }
+        //   }
   
   const tinCan = robotFactory('P-500', true);
   
