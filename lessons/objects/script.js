@@ -124,6 +124,11 @@ let spaceship5 = {
       }
   }
 }; 
+
 for (let crewMember in spaceship5.crew) {
 console.log(`${crewMember}: ${spaceship5.crew[crewMember].name}`);
+}
+
+for (let crewMember in spaceship.crew) {
+  console.log(`${spaceship.crew[crewMember].name}: ${spaceship.crew[crewMember].degree}`);
 }
