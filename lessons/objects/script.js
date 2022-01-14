@@ -80,3 +80,13 @@ let spaceship3 = {
 let capFave = spaceship3.crew.captain['favorite foods'][0]
 
 let firstPassenger = spaceship3.passengers[0]
+
+//Reassingment
+let spaceship4 = {
+  'Fuel Type' : 'Turbo Fuel',
+  homePlanet : 'Earth'
+};
+
+let greenEnergy = obj => {
+  obj['Fuel Type'] = 'avocado oil'
+}
