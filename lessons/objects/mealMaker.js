@@ -4,11 +4,13 @@ const menu = {
         mains: [],
         desserts: [],
     },
+    // All of the get methods console.log the respective array of courses
     get appetizers() {
         console.log(this._courses.appetizers)
     },
+    //All of the set functions check to make sure the name of the dish is a string and the price is a number 
     set appetizers(appetizer) {
-        if(typeof appetizer === 'string') {
+        if(typeof appetizer.name === 'string' && typeof appetizer.price === 'number' ) {
             this._courses.appetizers.push(appetizer);
         } else {
             console.log('Invaled input please try again');
@@ -18,7 +20,7 @@ const menu = {
         console.log(this._courses.mains)
     },
     set mains(main) {
-        if(typeof main === 'string') {
+        if(typeof main === 'string' && typeof main.price === 'number' ) {
             this._courses.mains.push(main);
         } else {
             console.log('Invaled input please try again');
@@ -28,7 +30,7 @@ const menu = {
         console.log(this._courses.desserts)
     },
     set desserts(dessert) {
-        if(typeof dessert === 'string') {
+        if(typeof dessert === 'string' && typeof dessert.price === 'number' ) {
             this._courses.desserts.push(dessert);
         } else {
             console.log('Invaled input please try again');
