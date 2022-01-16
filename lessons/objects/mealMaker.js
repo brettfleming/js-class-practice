@@ -31,6 +31,10 @@ const menu = {
     },
     addDishToCourse(courseName, dishName, dishPrice) {
         //could use destructured assignment if i change the passed through variables to course, Name, and Price
+        // const dish = {
+        //     name,
+        //     price
+        // };
         const dish = {
             name: dishName,
             price: dishPrice,
