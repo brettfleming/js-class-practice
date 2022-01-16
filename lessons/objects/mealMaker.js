@@ -5,19 +5,19 @@ const menu = {
         desserts: [],
     },
     get appetizers() {
-
+        console.log(this._courses.appetizers)
     },
     set appetizers(appetizer) {
 
     },
     get mains() {
-
+        console.log(this._courses.mains)
     },
     set mains(main) {
 
     },
     get desserts() {
-
+        console.log(this._courses.desserts)
     },
     set desserts(dessert) {
 
