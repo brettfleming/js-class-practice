@@ -45,6 +45,7 @@ const menu = {
 
     },
     generateRandomMeal() {
+        //need to use the this key word to call the method getRandomDishForm will inside the menu object
         const appetizer = this.getRandomDishFromCourse('appetizers');
         const main = this.getRandomDishFromCourse('mains');
         const dessert = this.getRandomDishFromCourse('desserts');
