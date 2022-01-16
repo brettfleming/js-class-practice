@@ -8,7 +8,11 @@ const menu = {
         console.log(this._courses.appetizers)
     },
     set appetizers(appetizer) {
-
+        if(typeof appetizer === 'string') {
+            this._courses.appetizers.push(appetizer);
+        } else {
+            console.log('Invaled input please try again');
+        }
     },
     get mains() {
         console.log(this._courses.mains)
