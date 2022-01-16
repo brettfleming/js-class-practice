@@ -18,13 +18,21 @@ const menu = {
         console.log(this._courses.mains)
     },
     set mains(main) {
-
+        if(typeof main === 'string') {
+            this._courses.mains.push(main);
+        } else {
+            console.log('Invaled input please try again');
+        }
     },
     get desserts() {
         console.log(this._courses.desserts)
     },
     set desserts(dessert) {
-
+        if(typeof dessert === 'string') {
+            this._courses.desserts.push(dessert);
+        } else {
+            console.log('Invaled input please try again');
+        }
     },
     get courses() {
         return {
