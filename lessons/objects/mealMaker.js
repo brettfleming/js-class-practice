@@ -74,7 +74,11 @@ const menu = {
     }
 
 };
+menu.appetizers
 
+menu.mains
+
+menu.desserts
 //adding dishes to the appetizers array
 menu.addDishToCourse('appetizers', 'chicken wings', 8);
 menu.addDishToCourse('appetizers', 'chicken tenders', 5);
