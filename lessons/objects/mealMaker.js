@@ -74,6 +74,7 @@ const menu = {
     }
 
 };
+//calling the getter methods
 menu.appetizers
 
 menu.mains
