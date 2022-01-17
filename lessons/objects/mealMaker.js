@@ -75,6 +75,7 @@ const menu = {
 
 };
 //calling the getter methods
+//will be a console log the arrays for each course
 menu.appetizers
 
 menu.mains
