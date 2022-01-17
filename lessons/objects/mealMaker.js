@@ -1,4 +1,5 @@
 const menu = {
+    // the underscore in front of courses is to tell other developrs that this varibale is not meant to be changed 
     _courses: {
         appetizers: [],
         mains: [],
