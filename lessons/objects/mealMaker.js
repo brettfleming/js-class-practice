@@ -11,7 +11,7 @@ const menu = {
     },
     //All of the set functions check to make sure the name of the dish is a string and the price is a number 
     set appetizers(appetizer) {
-        if(typeof appetizer.name === 'string' && typeof appetizer.price === 'number' ) {
+        if(typeof appetizer.name === 'string' && typeof appetizer.price === 'number' && typeof appetizer.calories === 'number' ) {
             this._courses.appetizers.push(appetizer);
         } else {
             console.log('Invaled input please try again');
@@ -21,7 +21,7 @@ const menu = {
         console.log(this._courses.mains)
     },
     set mains(main) {
-        if(typeof main === 'string' && typeof main.price === 'number' ) {
+        if(typeof main === 'string' && typeof main.price === 'number' && typeof main.calories === 'number' ) {
             this._courses.mains.push(main);
         } else {
             console.log('Invaled input please try again');
@@ -31,7 +31,7 @@ const menu = {
         console.log(this._courses.desserts)
     },
     set desserts(dessert) {
-        if(typeof dessert === 'string' && typeof dessert.price === 'number' ) {
+        if(typeof dessert === 'string' && typeof dessert.price === 'number' && typeof dessert.price === 'number' ) {
             this._courses.desserts.push(dessert);
         } else {
             console.log('Invaled input please try again');
