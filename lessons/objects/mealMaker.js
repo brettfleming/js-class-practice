@@ -44,7 +44,7 @@ const menu = {
             desserts: this.desserts
         }
     },
-    addDishToCourse(courseName, dishName, dishPrice) {
+    addDishToCourse(courseName, dishName, dishPrice, dishCalories) {
         //could use destructured assignment if i change the passed through variables to course, Name, and Price
         // const dish = {
         //     name,
@@ -53,6 +53,7 @@ const menu = {
         const dish = {
             name: dishName,
             price: dishPrice,
+            calories: dishCalories
         };
         this._courses[courseName].push(dish);
     },
