@@ -83,16 +83,16 @@ menu.mains
 
 menu.desserts
 //adding dishes to the appetizers array
-menu.addDishToCourse('appetizers', 'chicken wings', 8);
-menu.addDishToCourse('appetizers', 'chicken tenders', 5);
-menu.addDishToCourse('appetizers', 'onion rings', 6);
+menu.addDishToCourse('appetizers', 'chicken wings', 8, 500);
+menu.addDishToCourse('appetizers', 'chicken tenders', 5, 350);
+menu.addDishToCourse('appetizers', 'onion rings', 6, 600);
 //adding dishes to the mains array
-menu.addDishToCourse('mains', 'chicken alfrado', 23);
-menu.addDishToCourse('mains', 'Ribeye steak', 30);
-menu.addDishToCourse('mains', 'chicken cesear salad', 15);
+menu.addDishToCourse('mains', 'chicken alfrado', 23, 800);
+menu.addDishToCourse('mains', 'Ribeye steak', 30, 950);
+menu.addDishToCourse('mains', 'chicken cesear salad', 15, 400);
 //adding dishes to the desserts array
-menu.addDishToCourse('desserts', 'chacolate cake', 10);
-menu.addDishToCourse('desserts', 'cookie and ice cream', 7);
-menu.addDishToCourse('desserts', 'strawberry cheesecake', 12);
+menu.addDishToCourse('desserts', 'chacolate cake', 10, 475);
+menu.addDishToCourse('desserts', 'cookie and ice cream', 7, 450);
+menu.addDishToCourse('desserts', 'strawberry cheesecake', 12, 375);
 
 menu.generateRandomMeal()
