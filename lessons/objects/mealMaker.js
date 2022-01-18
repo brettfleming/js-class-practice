@@ -31,7 +31,7 @@ const menu = {
         console.log(this._courses.desserts)
     },
     set desserts(dessert) {
-        if(typeof dessert === 'string' && typeof dessert.price === 'number' && typeof dessert.price === 'number' ) {
+        if(typeof dessert === 'string' && typeof dessert.price === 'number' && typeof dessert.calories === 'number' ) {
             this._courses.desserts.push(dessert);
         } else {
             console.log('Invaled input please try again');
