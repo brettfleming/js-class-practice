@@ -16,5 +16,21 @@ const team = {
     age: 18
   }
     ],
-    _games:[]
+    _games:[
+      {
+    opponent: 'Birds',
+    teamPoints: 55,
+    opponentPoints: 15
+  },
+  {
+    opponent: 'Monkeys',
+    teamPoints: 62,
+    opponentPoints: 30
+  },
+  {
+    opponent: 'Tigers',
+    teamPoints: 40,
+    opponentPoints: 39
+  }
+    ]
   }
