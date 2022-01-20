@@ -59,3 +59,7 @@ const team = {
 team.addPlayer('Steph', 'Curry', 28);
 team.addPlayer('Lisa', 'Leslie', 44);
 team.addPlayer('Bugs', 'Bunny', 76);
+
+team.addGame('pips', 35, 15);
+team.addGame('horses', 76, 30);
+team.addGame('prime', 56, 43);
