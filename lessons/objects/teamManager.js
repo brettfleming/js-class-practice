@@ -1,4 +1,7 @@
 const team = {
+    //ideas for the future be able to remove players from the team
+    //check to see if your team won and how many
+    //have diffrent seasons
     _players: [
         {
             firstName: 'James',
