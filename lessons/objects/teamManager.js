@@ -43,7 +43,15 @@ const team = {
             lastName,
             age
         };
-        this.player.push(player);
+        this._players.push(player);
+    },
+    addGame(opponent, teamPoints, opponentPoints) {
+        let game = {
+            opponent,
+            teamPoints,
+            opponentPoints
+        };
+        this._games.push(game);
     }
 }
 
