@@ -45,6 +45,7 @@ const team = {
         };
         this._players.push(player);
     },
+    //this method adds games to the _games array this also uses destrected assignment 
     addGame(opponent, teamPoints, opponentPoints) {
         let game = {
             opponent,
