@@ -61,8 +61,14 @@ const team = {
         this._games.push(game);
     },
     getSeasonRecord() {
+        let ourWins = 0
+        let thereWins = 0
         this._games.forEach(game => {
-            
+            if(this._games.teamPoints > this._games.opponentPoints) {
+
+            } else {
+
+            }
         })
     }
 }
