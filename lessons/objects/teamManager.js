@@ -71,10 +71,9 @@ const team = {
                 thereWins++
             } else {
                 ties++
-
-
             }
         })
+        console.log(`the season record is ${ourWins}/${ties}/${thereWins}`);
     }
 }
 
