@@ -64,6 +64,7 @@ const team = {
         let ourWins = 0
         let thereWins = 0
         let ties = 0
+        //this foreach checks each game for which team won
         this._games.forEach(game => {
             if(game.teamPoints > game._games.opponentPoints) {
                 ourWins++
