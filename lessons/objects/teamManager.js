@@ -63,10 +63,14 @@ const team = {
     getSeasonRecord() {
         let ourWins = 0
         let thereWins = 0
+        let ties = 0
         this._games.forEach(game => {
-            if(this._games.teamPoints > this._games.opponentPoints) {
+            if(game.teamPoints > game._games.opponentPoints) {
+                ourWins++
+            }else if(game._games.opponentPoints > game._games.teamPoints){
 
             } else {
+
 
             }
         })
