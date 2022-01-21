@@ -68,8 +68,9 @@ const team = {
             if(game.teamPoints > game._games.opponentPoints) {
                 ourWins++
             }else if(game._games.opponentPoints > game._games.teamPoints){
-
+                thereWins++
             } else {
+                ties++
 
 
             }
