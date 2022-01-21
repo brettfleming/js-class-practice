@@ -39,6 +39,9 @@ const team = {
     get games() {
         return this._games;
     },
+    get seasonRecord() {
+        return this.getSeasonRecord()
+    },
     //this method uses destructed assignment to assign the values to the player object
     addPlayer(firstName, lastName, age) {
         let player = {
@@ -56,6 +59,11 @@ const team = {
             opponentPoints
         };
         this._games.push(game);
+    },
+    getSeasonRecord() {
+        this._games.forEach(game => {
+            
+        })
     }
 }
 
