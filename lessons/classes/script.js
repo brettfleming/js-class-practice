@@ -1,4 +1,6 @@
 // intro to classes
+
+//classes are special types of objects
 class Dog {
     constructor(name) {
       this._name = name;
