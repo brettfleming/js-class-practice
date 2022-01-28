@@ -82,3 +82,17 @@ class Media {
       return this._songs;
     }
   }
+
+  const book1 = new Book('A Short History of Nearly Everything', 'Bill Bryson', 544);
+console.log(book1.title)
+book1.toggleCheckOutStatus()
+console.log(book1.isCheckedOut)
+book1.toggleCheckOutStatus()
+console.log(book1.isCheckedOut)
+book1.addRating(4);
+book1.addRating(5);
+book1.addRating(5);
+console.log(book1.getAverageRating())
+
+const movie1 = new Movie('speed', 'Jan de Bont', 116);
+console.log(movie1.director)
