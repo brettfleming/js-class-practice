@@ -58,3 +58,24 @@ class Surgeon {
   console.log(surgeonRomero.name)
 surgeonRomero.takeVacationDays(3)
 console.log(surgeonRomero.remainingVacationDays)
+
+//superclasses and subclasses
+
+class HospitalEmployee {
+    constructor(name) {
+      this._name = name;
+      this._remainingVacationDays = 20
+    }
+  
+    get name() {
+      return this._name
+    }
+  
+    get remainingVacationDays() {
+      return this._remainingVacationDays
+    }
+  
+    takeVacationDays(daysOff) {
+      this._remainingVacationDays -= daysOff
+    }
+  }
