@@ -11,7 +11,7 @@
 
 //classes are special types of objects that are like templates to mass produce objects
 class Dog {
-    //the constructor is how you can create a new object 
+    //the constructor is how you can create a new object and you will pass proporties into it
     constructor(name) {
       this._name = name;
       this._behavior = 0;
@@ -69,7 +69,8 @@ surgeonRomero.takeVacationDays(3)
 console.log(surgeonRomero.remainingVacationDays)
 
 //superclasses and subclasses
-
+// parent class/superclass
+//the super class holds the information that is the same for all of its subclasses
 class HospitalEmployee {
     constructor(name) {
       this._name = name;
@@ -92,9 +93,11 @@ class HospitalEmployee {
         return Math.floor(Math.random()*10000);
       }
   }
-
+//subclass/child class
+//the subclass will inherite properties from the superclass
   class Nurse extends HospitalEmployee {
     constructor(name, certifications) {
+        //you need to call the super before you create any of the new proporties that this subclass will have that are special to it
       super(name);
       this._certifications = certifications;
     } 
