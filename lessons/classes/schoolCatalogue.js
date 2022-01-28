@@ -1,11 +1,15 @@
 class School {
-    constructor(name, numberOfStudents) {
+    constructor(name, level, numberOfStudents) {
       this._name = name;
+      this._level = level
       this._numberOfStudents = numberOfStudents
     } 
   
     get name() {
       return this._name
+    }
+    get level() {
+      return this._level
     }
     get numberOfStudents() {
       return this._numberOfStudents
@@ -16,5 +20,22 @@ class School {
     }
     static pickSubstituteTheacher() {
   
+    }
+  }
+  
+  class Primary extends School {
+    constructor(name, level, numberOfStudents ) {
+    super(name, level, numberOfStudents)
+    this._pickupPolicy = ''
+    }
+  
+    get pickupPolicy() {
+      return this._pickupPolicy
+    }
+  }
+  
+  class Middle extends School {
+    constructor(name, level, numberOfStudents ) {
+    super(name, level, numberOfStudents)
     }
   }
