@@ -39,3 +39,15 @@ class School {
     super(name, level, numberOfStudents)
     }
   }
+
+  class High extends School {
+    constructor(name, level, numberOfStudents, sportsTeams  ) {
+    super(name, level, numberOfStudents)
+    this._sportsTeams = sportsTeams
+    }
+  
+    get sportsTeams() {
+      return this._sportsTeams 
+    }
+  }
+  
