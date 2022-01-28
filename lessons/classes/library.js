@@ -7,4 +7,19 @@ class Media {
     get title(){
       return this._title
     }
+    get isCheckOut(){
+      return this._isCheckedOut;
+    }
+    get ratings() {
+      return this._ratings
+    }
+    getAverageRating() {
+  
+    }
+    toggleCheckOutStatus() {
+  
+    }
+    addRating(rating) {
+      
+    }
   }
