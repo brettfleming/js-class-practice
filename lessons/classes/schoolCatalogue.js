@@ -14,6 +14,14 @@ class School {
     get numberOfStudents() {
       return this._numberOfStudents
     }
+
+    set numberOfStudents(number) {
+        if (typeof number === 'number' ) {
+          this._numberOfStudents = number
+        } else {
+          console.log('Invalid input: numberOfStudents must be set to a Number.')
+        }
+      }
   
     quickFacts() {
   
