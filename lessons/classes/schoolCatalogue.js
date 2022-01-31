@@ -66,6 +66,7 @@ const lorraineHansbury = new Primary('Lorraine Hansbury', 514, 'Students must be
 lorraineHansbury.quickFacts()
 //this how you call a static method
 const sub = School.pickSubstituteTheacher(['Jamal Crawford', 'Lou Williams', 'J. R. Smith', 'James Harden', 'Jason Terry', 'Manu Ginobli'])
+//creating a new high school object
 const alSmith = new High('Al E. Smith', 415, ['Baseball', 'Basketball', 'Volleyball', 'Track and Field'])
 
 console.log(alSmith.sportsTeams)
