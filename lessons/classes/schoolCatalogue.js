@@ -33,7 +33,7 @@ class School {
 
     }
 }
-
+//Primary school sub class
 class Primary extends School {
     constructor(name, numberOfStudents, pickupPolicy) {
         super(name, 'primary', numberOfStudents)
