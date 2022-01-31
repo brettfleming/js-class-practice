@@ -50,7 +50,7 @@ class Middle extends School {
         super(name, 'middle', numberOfStudents)
     }
 }
-
+// high school sub class
 class High extends School {
     constructor(name, numberOfStudents, sportsTeams) {
         super(name, 'high', numberOfStudents)
