@@ -61,7 +61,7 @@ class High extends School {
         return this._sportsTeams
     }
 }
-
+//creating a new primary school object
 const lorraineHansbury = new Primary('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.')
 lorraineHansbury.quickFacts()
 //this how you call a static method
