@@ -14,7 +14,7 @@ class School {
     get numberOfStudents() {
         return this._numberOfStudents
     }
-
+    // this set method checks to make sure what you are setting the number of students key to a number
     set numberOfStudents(number) {
         if (typeof number === 'number') {
             this._numberOfStudents = number
