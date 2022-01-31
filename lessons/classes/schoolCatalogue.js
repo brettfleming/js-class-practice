@@ -44,7 +44,7 @@ class Primary extends School {
         return this._pickupPolicy
     }
 }
-
+//middle school sub class
 class Middle extends School {
     constructor(name, numberOfStudents) {
         super(name, 'middle', numberOfStudents)
