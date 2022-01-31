@@ -27,6 +27,7 @@ class School {
         console.log(`${this._name} educates ${this._numberOfStudents} students at the ${this._level} school level.`)
 
     }
+    //this is a tatic method that can only be called on the school class
     static pickSubstituteTheacher(substituteTeachers) {
         return substituteTeachers[Math.floor(Math.random() * substituteTeachers.length)]
 
