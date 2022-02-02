@@ -17,4 +17,23 @@ const orderSunglasses = () => {
 };
 const orderPromise = orderSunglasses();
 
-console.log(orderPromise);  
+console.log(orderPromise);
+
+
+
+console.log("This is the first line of code in app.js.");
+
+const usingSTO = () => {
+  console.log('hello')
+}
+
+
+
+
+
+
+
+
+
+
+console.log("This is the last line of code in app.js.");
