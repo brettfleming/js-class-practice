@@ -20,13 +20,14 @@ const orderPromise = orderSunglasses();
 console.log(orderPromise);
 
 
-
+//using setTimeout
+//this logs to the console first
 console.log("This is the first line of code in app.js.");
 
 const usingSTO = () => {
   console.log('hello')
 }
-
+//this is calling the usingSTO function after 2 sec
 setTimeout(usingSTO, 2000);
 
 
@@ -35,5 +36,5 @@ setTimeout(usingSTO, 2000);
 
 
 
-
+//this will console log before usingSTO will excicute
 console.log("This is the last line of code in app.js.");
