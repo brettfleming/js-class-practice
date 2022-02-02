@@ -27,7 +27,7 @@ const usingSTO = () => {
   console.log('hello')
 }
 
-
+setTimeout(usingSTO, 2000);
 
 
 
