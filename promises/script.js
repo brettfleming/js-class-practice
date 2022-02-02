@@ -5,10 +5,9 @@ const inventory = {
   };
   
   const myExecutor = (resolve, reject) => {
-   if (inventory.sunglasses > 0) {
-     resolve('Sunglasses order processed')
-   } else {
-     reject('That item is sold out')
-   }
-  }
-  
+    if (inventory.sunglasses > 0) {
+        resolve('Sunglasses order processed.');
+    } else {
+        reject('That item is sold out.');
+    }
+};
