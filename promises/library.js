@@ -1,3 +1,4 @@
+//the inventory object holds all the information for the stock of the library
 const inventory = {
     sunglasses: 1900,
     pants: 1088,
