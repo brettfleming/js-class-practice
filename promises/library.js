@@ -4,7 +4,7 @@ const inventory = {
     pants: 1088,
     bags: 1344
   };
-  
+  //this is the check inventory function
   const checkInventory = (order) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
