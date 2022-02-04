@@ -17,5 +17,5 @@ const inventory = {
       }, 1000);
     })
   };
-  
+  //this is exporting the checkinventory function
   module.exports = { checkInventory };
