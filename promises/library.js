@@ -10,7 +10,7 @@ const inventory = {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         let inStock = order.every(item => inventory[item[0]] >= item[1]);
-        
+        //if this the item is in stock it responds with thr resolve response
         if (inStock) {
           resolve(`Thank you. Your order was successful.`);
         } else {
