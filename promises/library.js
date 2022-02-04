@@ -6,9 +6,11 @@ const inventory = {
   };
   //this is the check inventory function
   const checkInventory = (order) => {
+      //creating a new promise
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         let inStock = order.every(item => inventory[item[0]] >= item[1]);
+        
         if (inStock) {
           resolve(`Thank you. Your order was successful.`);
         } else {
