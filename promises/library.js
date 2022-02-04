@@ -14,6 +14,7 @@ const inventory = {
         if (inStock) {
           resolve(`Thank you. Your order was successful.`);
         } else {
+            //this is the response if the stock is out then is respponds wwith the reject response
           reject(`We're sorry. Your order could not be completed because some items are sold out.`);
         }
       }, 1000);
