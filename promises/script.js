@@ -79,19 +79,23 @@ const order = {
   items: [['sunglasses', 1], ['bags', 2]],
   giftcardBalance: 79.82
 };
-
+//calls the checkInvetory function and returns an array of values
 checkInventory(order)
 .then((resolvedValueArray) => {
+  //the resolvedValueArray is passed into the next promise which expects a valid array
   return processPayment(resolvedValueArray)
  
 })
+//this process is repeated with the same concept for a new promise
 .then((resolvedValueArray) => {
   return shipOrder(resolvedValueArray)
   
 })
+//logs a succes Message
 .then((successMessage) => {
   console.log(successMessage);
 })
+//logs an error message is an error occurs
 .catch((errorMessage) => {
   console.log(errorMessage);
 });
