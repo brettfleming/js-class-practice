@@ -109,13 +109,29 @@ const order = {
   giftcardBalance: 79.82
 };
 
-// checkInventory(order)
-//     .then((resolvedValueArray) => {
-//         processPayment(resolvedValueArray)
-//             .then((resolvedValueArray) => {
-//                 shipOrder(resolvedValueArray)
-//                     .then((successMessage) => {
-//                         console.log(successMessage);
-//                     });
-//             });
-//     });
+//code that is being refactored
+  // checkInventory(order)
+  //     .then((resolvedValueArray) => {
+  //         processPayment(resolvedValueArray)
+  //             .then((resolvedValueArray) => {
+  //                 shipOrder(resolvedValueArray)
+  //                     .then((successMessage) => {
+  //                         console.log(successMessage);
+  //                     });
+  //             });
+  //     });
+//refactored code
+  checkInventory(order)
+.then((resolvedValueArray) => {
+    return processPayment(resolvedValueArray)
+})
+.then((resolvedValueArray) => {
+   return shipOrder(resolvedValueArray)
+})
+.then((successMessage) => {
+  console.log(successMessage);
+})
+.catch((errorMessage) => {
+  console.log(errorMessage);
+});
+
