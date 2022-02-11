@@ -11,3 +11,16 @@ fs.readFile('./file.txt', 'utf-8', (err, data) => {
       console.log(firstSentence, secondSentence);
     });
   });
+
+  // Here we use native promises with our "promisified" version of readfile:
+let firstSentence;
+promisifiedReadfile('./file.txt', 'utf-8')
+  .then((data) => {
+    firstSentence = data;
+    return promisifiedReadfile('./file2.txt', 'utf-8');
+  })
+  .then((data) => {
+    let secondSentence = data;
+    console.log(firstSentence, secondSentence)
+  })
+  .catch((err) => {console.log(err)});
