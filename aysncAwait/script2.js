@@ -27,3 +27,7 @@ function withConstructor(num){
   .then((resolveValue) => {
   console.log(` withAsync(100) returned a promise which resolved to: ${resolveValue}.`);
 })
+
+//the await keyword
+
+const brainstormDinner = require('./library.js');
