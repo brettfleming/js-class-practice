@@ -54,3 +54,9 @@ async function getBeans() {
 }
 
 getBeans();
+
+
+//mutiplue async await 
+async function makeBeans() {
+
+}
