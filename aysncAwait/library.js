@@ -38,7 +38,7 @@ const shopForBeans = () => {
   }, 1000);
 });
 }
-
+//takes the selected beantype of soaks them
 let soakTheBeans = (beanType) => {
   return new Promise((resolve, reject) => {
     console.log('Time to soak the beans.');
@@ -48,7 +48,7 @@ let soakTheBeans = (beanType) => {
      }, 1000);
  });
 }
-
+//takes the soacked selected bean type and cooks them
 let cookTheBeans = (isSoftened) => {
   return new Promise((resolve, reject) => {
     console.log('Time to cook the beans.');
