@@ -58,5 +58,6 @@ getBeans();
 
 //mutiplue async await 
 async function makeBeans() {
-
+  //getting the bean type
+  let type =  await shopForBeans();
 }
