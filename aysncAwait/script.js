@@ -44,3 +44,13 @@ const shopForBeans = require('./library.js');
 }
 
 getBeans();
+
+//adding in the async and await key words in these spots allows to code to run properly
+//the function now waits for a response from the promise before running the rest of the code
+async function getBeans() {
+  console.log(`1. Heading to the store to buy beans...`);
+  let value = await shopForBeans();
+  console.log(`3. Great! I'm making ${value} beans for dinner tonight!`);
+}
+
+getBeans();
