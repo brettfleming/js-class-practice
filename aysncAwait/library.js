@@ -48,6 +48,18 @@ let soakTheBeans = (beanType) => {
      }, 1000);
  });
 }
+
+let cookTheBeans = (isSoftened) => {
+  return new Promise((resolve, reject) => {
+    console.log('Time to cook the beans.');
+    setTimeout(()=>{
+      if (isSoftened) {
+        console.log('... The beans are cooked!');
+        resolve('\n\nDinner is served!');
+      }
+    }, 1000);
+  });
+}
   
 module.exports = shopForBeans;
 module.exports = brainstormDinner;
