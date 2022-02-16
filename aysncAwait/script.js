@@ -60,8 +60,10 @@ getBeans();
 async function makeBeans() {
   //getting the bean type
   let type =  await shopForBeans();
+  //console.log(type);
   // passing the bean type into soackTheBeans
   let isSoft = await soakTheBeans(type);
+  //console.log(isSoft);
   //passing the boolean value retuned by soakTheBeans into cookTheBeans
   let dinner = await cookTheBeans(isSoft);
   console.log(dinner);
