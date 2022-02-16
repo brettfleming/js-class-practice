@@ -35,7 +35,7 @@ async function readFiles() {
   readFiles();
 
 // seeing the function of async/await
-const shopForBeans = require('./library.js');
+const {shopForBeans, soakTheBeans, cookTheBeans} = require('./library.js');
 // when this runs properly it should return 1, 2 ,3 but the way it is wrtten means it will return 1, 3, 2 becasue the function does not wait for the reponse from the promise to run the rest of the code 
  function getBeans() {
   console.log(`1. Heading to the store to buy beans...`);
