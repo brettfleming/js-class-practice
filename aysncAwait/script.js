@@ -60,4 +60,6 @@ getBeans();
 async function makeBeans() {
   //getting the bean type
   let type =  await shopForBeans();
+  // passing the bean type into soackTheBeans
+  let isSoft = await soakTheBeans(type);
 }
