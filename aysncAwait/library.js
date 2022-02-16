@@ -61,5 +61,5 @@ let cookTheBeans = (isSoftened) => {
   });
 }
   
-module.exports = shopForBeans;
+module.exports = {shopForBeans, soakTheBeans, cookTheBeans};
 module.exports = brainstormDinner;
