@@ -29,7 +29,9 @@ const shopForBeans = () => {
   return new Promise((resolve, reject) => {
 	const beanTypes = ['kidney', 'fava', 'pinto', 'black', 'garbanzo'];
   setTimeout(()=>{
+    //generates a random number
     let randomIndex = Math.floor(Math.random() * beanTypes.length);
+    //random number selects a random bean in the beantypes array
     let beanType = beanTypes[randomIndex];
     console.log(`2. I bought ${beanType} beans because they were on sale.`);
    resolve(beanType);
