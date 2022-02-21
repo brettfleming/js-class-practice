@@ -46,3 +46,5 @@ async function announceDinner() {
   console.log(`I'm going to make ${meal} for dinner.`)
 }
 announceDinner();
+
+const cookBeanSouffle = require('./library.js');
