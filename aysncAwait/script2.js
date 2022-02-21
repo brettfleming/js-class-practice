@@ -54,7 +54,8 @@ async function hostDinnerParty() {
     let dinner = await cookBeanSouffle()
     console.log(`${dinner} is served!`)
 
-  } catch (error){
-
+  }catch (error){
+    console.log(error);
+    console.log('Ordering a pizza!')
   }
 }
