@@ -59,3 +59,5 @@ async function hostDinnerParty() {
     console.log('Ordering a pizza!')
   }
 }
+
+hostDinnerParty();
