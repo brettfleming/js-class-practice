@@ -48,3 +48,11 @@ async function announceDinner() {
 announceDinner();
 
 const cookBeanSouffle = require('./library.js');
+
+async function hostDinnerParty() {
+  try {
+
+  } catch (err){
+
+  }
+}
