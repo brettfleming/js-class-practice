@@ -51,8 +51,10 @@ const cookBeanSouffle = require('./library.js');
 
 async function hostDinnerParty() {
   try {
+    let resolvedValue = await cookBeanSouffle()
+    console.log()
 
-  } catch (err){
+  } catch (error){
 
   }
 }
