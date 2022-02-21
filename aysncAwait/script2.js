@@ -50,11 +50,13 @@ announceDinner();
 const cookBeanSouffle = require('./library.js');
 
 async function hostDinnerParty() {
+  //the try block us to tell the code to try this line if error pass error to the catch block
   try {
     let dinner = await cookBeanSouffle()
     console.log(`${dinner} is served!`)
 
   }catch (error){
+    //the catch block takes the error in as an argument allowing use to console.log() it to see what happened
     console.log(error);
     console.log('Ordering a pizza!')
   }
