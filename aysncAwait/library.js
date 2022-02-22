@@ -85,6 +85,7 @@ let randomSuccess = () => {
       } else {
         reject('Dinner is ruined!');
       }
+      //this is a time of 1 sec (most of the time your time is set in milliseconds)
     }, 1000);
   });
  };
