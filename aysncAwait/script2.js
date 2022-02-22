@@ -46,7 +46,7 @@ async function announceDinner() {
   console.log(`I'm going to make ${meal} for dinner.`)
 }
 announceDinner();
-
+//required in function 
 const cookBeanSouffle = require('./library.js');
 
 async function hostDinnerParty() {
