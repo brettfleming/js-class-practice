@@ -76,6 +76,7 @@ let randomSuccess = () => {
  let cookBeanSouffle = () => {
   return new Promise((resolve, reject) => {
     console.log('Fingers crossed... Putting the Bean Souffle in the oven');
+    //setTime just delays the function for the given time
     setTimeout(()=>{
       //calls the randomSuccess function to see if a seccess or not
       let success = randomSuccess();
