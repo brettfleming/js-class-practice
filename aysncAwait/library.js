@@ -77,6 +77,7 @@ let randomSuccess = () => {
   return new Promise((resolve, reject) => {
     console.log('Fingers crossed... Putting the Bean Souffle in the oven');
     setTimeout(()=>{
+      //calls the randomSuccess function to see if a seccess or not
       let success = randomSuccess();
       if(success){
         resolve('Bean Souffle');
