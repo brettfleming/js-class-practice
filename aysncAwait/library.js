@@ -63,6 +63,7 @@ let cookTheBeans = (isSoftened) => {
 
 // This function returns true 50% of the time.
 let randomSuccess = () => {
+  //Math.random generates a random number between 0 and 1
   let num = Math.random();
   if (num < .5 ){
     return true;
