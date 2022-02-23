@@ -89,6 +89,14 @@ let randomSuccess = () => {
     }, 1000);
   });
  };
+
+ let cookBeans = () => {
+   return new Promise ((resolve, reject) => {
+     setTimeout(() => {
+       resolve('beans');
+     }, 1000);
+   })
+ };
  
 module.exports = cookBeanSouffle; 
 module.exports = {shopForBeans, soakTheBeans, cookTheBeans};
