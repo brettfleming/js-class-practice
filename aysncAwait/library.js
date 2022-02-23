@@ -124,7 +124,7 @@ let bakeChicken = () => {
   });
 }
 
- 
+module.exports = {cookBeans, steamBroccoli, cookRice, bakeChicken};
 module.exports = cookBeanSouffle; 
 module.exports = {shopForBeans, soakTheBeans, cookTheBeans};
 module.exports = brainstormDinner;
