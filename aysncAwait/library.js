@@ -105,7 +105,16 @@ let randomSuccess = () => {
      }, 1000);
    })
  };
- 
+
+
+let cookRice = () => {
+  return new Promise ((resolve, reject) => {
+    setTimeout(() => {
+      resolve('rice');
+    });
+  }, 1000);
+};
+
  
 module.exports = cookBeanSouffle; 
 module.exports = {shopForBeans, soakTheBeans, cookTheBeans};
