@@ -97,6 +97,15 @@ let randomSuccess = () => {
      }, 1000);
    })
  };
+
+ let steamBroccoli = () => {
+   return new Promise ((resolve, reject) => {
+     setTimeout(() => {
+       resolve('broccoli');
+     }, 1000);
+   })
+ };
+ 
  
 module.exports = cookBeanSouffle; 
 module.exports = {shopForBeans, soakTheBeans, cookTheBeans};
