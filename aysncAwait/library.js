@@ -115,6 +115,15 @@ let cookRice = () => {
   }, 1000);
 };
 
+
+let bakeChicken = () => {
+  return new Promise ((resolve, reject) => {
+    setTimeout(() => {
+      resolve('chicken');
+    }, 1000);
+  });
+}
+
  
 module.exports = cookBeanSouffle; 
 module.exports = {shopForBeans, soakTheBeans, cookTheBeans};
