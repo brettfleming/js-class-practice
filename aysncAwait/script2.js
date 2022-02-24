@@ -79,5 +79,5 @@ async function serveDinner() {
 serveDinner();
 
 async function serveDinnerAgain() {
-  
+  let foodArray = Promise.all([steamBroccoli(), cookRice(), bakeChicken(), cookBeans()])
 }
