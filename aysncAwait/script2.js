@@ -68,5 +68,8 @@ let {cookBeans, steamBroccoli, cookRice, bakeChicken} = require('./library.js');
 
 
 async function serveDinner() {
-  
+  let vegetablePromise = steamBroccoli();
+  let starchPromise = cookRice();
+  let proteinPromise = bakeChicken();
+  let sidePromise = cookBeans();
 }
