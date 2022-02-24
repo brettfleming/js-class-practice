@@ -80,4 +80,18 @@ serveDinner();
 
 async function serveDinnerAgain() {
   let foodArray = Promise.all([steamBroccoli(), cookRice(), bakeChicken(), cookBeans()])
+  let dinnerStr = "Dinner is served. We're having"
+  for (let i = 0; i<foodArray.length; i++){
+    if(i === 0) {
+      dinnerStr += " " + foodArray[i];
+    } else {
+      dinnerStr += ", " + foodArray[i];
+    }
+    
+  }
+  dinnerStr += '.'
+  console.log(dinnerStr)
 }
+
+
+serveDinnerAgain();
