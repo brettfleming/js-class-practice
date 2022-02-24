@@ -65,3 +65,8 @@ async function hostDinnerParty() {
 hostDinnerParty();
 
 let {cookBeans, steamBroccoli, cookRice, bakeChicken} = require('./library.js');
+
+
+async function serveDinner() {
+  
+}
