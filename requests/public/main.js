@@ -37,3 +37,7 @@ const formatJson = (resJson) => {
     })
     .join('');
   }
+  const renderResponse = (jsonResponse) => {
+      const jsonSelection = Math.floor(Math.random() * 10);
+      display.innerHTML = `<pre>${formatJson(jsonResponse[jsonSelection])}</pre>`;
+  }
