@@ -7,6 +7,7 @@ const collection = ["Another", "More", "Next", "Continue", "Keep going", "Click 
 
 const generateJson = () => {
     const xhr = new XMLHttpRequest();
+    //the responseType is in Json
     xhr.responseType = 'json';
     
     xhr.onreadystatechange = () => {
