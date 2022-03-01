@@ -52,5 +52,5 @@ const formatJson = (resJson) => {
     const newText = Math.floor(Math.random() * 7);
     jsonButton.innerHTML = `${collection[newText]}!`;
   }
-  
+  //This is the event Listner that is listner for a click on the JSonButton
   jsonButton.addEventListener('click', generateJson);
