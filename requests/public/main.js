@@ -1,6 +1,8 @@
+//selecting the things on the page
 const jsonButton = document.querySelector('#generate');
 const buttonContainer = document.querySelector('#buttonContainer');
 const display = document.querySelector('#displayContainer');
+//the collections array
 const collection = ["Another", "More", "Next", "Continue", "Keep going", "Click me", "A new one"];
 
 const generateJson = () => {
