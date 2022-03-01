@@ -22,6 +22,7 @@ const generateJson = () => {
   }
 
 const formatJson = (resJson) => {
+  //using srtingify to turn the JSon to a string
     resJson = JSON.stringify(resJson);
     let counter = 0;
     return resJson.split('')
