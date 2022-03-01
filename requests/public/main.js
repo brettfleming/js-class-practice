@@ -15,6 +15,7 @@ const generateJson = () => {
         changeButton();
       }
     }
+    //The Get request
     xhr.open('GET', 'https://jsonplaceholder.typicode.com/users');
     xhr.send();
   }
