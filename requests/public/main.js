@@ -43,6 +43,7 @@ const formatJson = (resJson) => {
     .join('');
   }
   const renderResponse = (jsonResponse) => {
+    //Math.Floor makes the random number a whole number when using Math.Random
       const jsonSelection = Math.floor(Math.random() * 10);
       display.innerHTML = `<pre>${formatJson(jsonResponse[jsonSelection])}</pre>`;
   }
