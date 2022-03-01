@@ -1,4 +1,4 @@
-//selecting the things on the page
+//selecting the elements on the page
 const jsonButton = document.querySelector('#generate');
 const buttonContainer = document.querySelector('#buttonContainer');
 const display = document.querySelector('#displayContainer');
@@ -50,6 +50,7 @@ const formatJson = (resJson) => {
 
   const changeButton = () => {
     const newText = Math.floor(Math.random() * 7);
+    //setting the innerHTML to the collection arrray value that is randomly generated
     jsonButton.innerHTML = `${collection[newText]}!`;
   }
   //This is the event Listner that is listner for a click on the JSonButton
