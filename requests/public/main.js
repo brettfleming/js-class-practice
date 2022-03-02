@@ -63,3 +63,5 @@ const formatJson = (resJson) => {
   //   console.log('This message will always run last...');
   // }, 2500);
   // console.log('Second message!');
+
+  const xhr = new XMLHttpRequest();
