@@ -57,7 +57,7 @@ const formatJson = (resJson) => {
   jsonButton.addEventListener('click', generateJson);
 
 
-
+//This code just shows the concelpt of looping events the setTimeout function will alwasy run last no matter what the time is set to
   // console.log('First message!');
   // setTimeout(() => {
   //   console.log('This message will always run last...');
