@@ -55,3 +55,11 @@ const formatJson = (resJson) => {
   }
   //This is the event Listner that is listner for a click on the JSonButton
   jsonButton.addEventListener('click', generateJson);
+
+
+
+  console.log('First message!');
+  setTimeout(() => {
+    console.log('This message will always run last...');
+  }, 2500);
+  console.log('Second message!');
