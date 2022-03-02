@@ -65,3 +65,4 @@ const formatJson = (resJson) => {
   // console.log('Second message!');
 
   const xhr = new XMLHttpRequest();
+  const URL = 'https://api-to-call.com/endpoint';
