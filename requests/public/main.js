@@ -70,5 +70,7 @@ const formatJson = (resJson) => {
   xhr.responseType = 'json'
 
   xhr.onreadystatechange = () => {
-  
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+ 
+    }
   }
