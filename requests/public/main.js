@@ -87,7 +87,9 @@ const submit = document.querySelector('#submit');
 const responseField = document.querySelector('#responseField');
 
 
+const getSuggestions = () => {
 
+}
 
 
 const displaySuggestions = (event) => {
