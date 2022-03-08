@@ -80,6 +80,8 @@ xhr.send();
 
 // Information to reach API
 const url = 'https://api.datamuse.com/words?'
+//this helps narrow down the search to words that rhyme
+const queryParams = 'rel_rhy='
 
 // Selecting page elements
 const inputField = document.querySelector('#input');
