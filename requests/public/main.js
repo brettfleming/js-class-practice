@@ -95,6 +95,14 @@ const getSuggestions = () => {
   const xhr = new XMLHttpRequest;
 
   xhr.responseType = 'json'
+
+  xhr.onreadystatechange = () => {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+  renderResponse(xhr.response)
+}
+  }
+xhr.open('GET', endpoint)
+xhr.send()
 }
 
 
