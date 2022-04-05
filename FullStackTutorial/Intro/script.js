@@ -7,3 +7,6 @@ let message = "Hi, my name is " + name + " and I am " + age + " years old!";
 
 //they can also be used to hold a message that is ment to be displayed
 alert(message);
+
+// console.logs are great for debugging this displays in the console
+console.log(message);
