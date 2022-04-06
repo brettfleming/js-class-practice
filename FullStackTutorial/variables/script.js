@@ -16,4 +16,8 @@ let sum = 10 + 15;
 let sub = 10 - 5;
 let mul = 10 * 3;
 let div = 9 / 3;
+//the modular opperator gives the remainder after a divition operation
+let mod = 10 % 3; 
+let msg = '10 / 3 = 3 with a remainder of ' + mod;
 console.log(sum)
+console.log(msg);
