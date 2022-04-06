@@ -25,3 +25,15 @@ console.log(msg);
 //order of operations works just like in regular math
 let result = 10 * 5 + 3 - 4;
 let result2 = 10((5 + 3) -4);
+
+if (age === 23) {
+    console.log("you are old!");
+}
+
+let myAccuntBalance = 300;
+let shoes = 90.43;
+if (shoes <= myAccuntBalance) {
+    console.log('Just bought some nice shoes!')
+} else {
+    console.log('you are a broke a$$ bitch');
+}
