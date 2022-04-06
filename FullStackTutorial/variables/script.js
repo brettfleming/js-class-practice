@@ -21,3 +21,7 @@ let mod = 10 % 3;
 let msg = '10 / 3 = 3 with a remainder of ' + mod;
 console.log(sum)
 console.log(msg);
+
+//order of operations works just like in regular math
+let result = 10 * 5 + 3 - 4;
+let result2 = 10((5 + 3) -4);
