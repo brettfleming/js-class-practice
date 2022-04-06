@@ -25,7 +25,10 @@ console.log(msg);
 //order of operations works just like in regular math
 let result = 10 * 5 + 3 - 4;
 let result2 = 10((5 + 3) -4);
-
+//== equal to (the value is the same)
+//=== equal to (the value and the type are the same)
+//<= less than or equal to 
+//>= greater then or equal to
 if (age === 23) {
     console.log("you are old!");
 }
