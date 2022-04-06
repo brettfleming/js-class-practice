@@ -32,10 +32,17 @@ if (age === 23) {
 
 let myAccuntBalance = 300;
 let shoes = 90.43;
+let coupon = 50;
 if (shoes <= myAccuntBalance) {
     myAccuntBalance -= shoes;
     console.log('Just bought some nice shoes!');
     console.log('Account Balance: ' + myAccuntBalance);
-} else {
+}else if (shoes - coupon <= myAccuntBalance) {
+    console.log('we just bought some shoes with a coupon!');
+    myAccuntBalance -= shoes - coupon;
+    console.log('Account Balance: ' + myAccuntBalance);
+
+}
+else {
     console.log('you are a broke a$$ bitch');
 }
