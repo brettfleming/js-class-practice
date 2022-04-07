@@ -90,7 +90,7 @@ let index = naughtyList.indexOf('Timmy');
 if (index > -1) {
     //this line is taking the found index and cutting it out of the array
     //we are creating a new array and replacing the old one
-    naughtyList= naughtyList.splice(index, 1);
+    naughtyList.splice(index, 1);
 }
 console.log(students);
 console.log(naughtyList);
