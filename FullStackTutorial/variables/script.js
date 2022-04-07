@@ -68,10 +68,11 @@ let cat2 = 10;
 let cat3 = 1;
 let disabledHandicap = true;
 
-if (cat1 > cat2 && cat1 > cat3 && !disabledHandicap){
+if ((cat1 > cat2 && cat1 > cat3) && !disabledHandicap){
     console.log('cat 1 is the cutest!');
-} else if (cat2 > cat1 && cat2 > cat3 && !disabledHandicap){
+} else if ((cat2 > cat1 && cat2 > cat3) && !disabledHandicap){
     console.log('cat 2 is the cutest!')
-} else if (cat3 > cat1 && cat3 > cat2 || disabledHandicap ){
+    //if you had the && operator instead of the || this line would not run since the first part is not true
+} else if ((cat3 > cat1 && cat3 > cat2) || disabledHandicap ){
     console.log('cat 3 is the cutest!')
 };
