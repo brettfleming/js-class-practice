@@ -29,6 +29,7 @@ let result2 = 10((5 + 3) -4);
 //=== equal to (the value and the type are the same)
 //<= less than or equal to 
 //>= greater then or equal to
+//!== is not equal to
 if (age === 23) {
     console.log("you are old!");
 }
@@ -48,4 +49,15 @@ if (shoes <= myAccuntBalance) {
 }
 else {
     console.log('you are a broke a$$ bitch');
+}
+
+//the && logical operator means if both arguments are true together
+//the || logical operator means if one of the two operators are true run the code
+if ( 1 === 1 && 2 === 2 ){
+    console.log('these are both true');
+
+}
+
+if (1 === 3 || 'joe' === 'joe') {
+    console.log('this is the or operator in action');
 }
