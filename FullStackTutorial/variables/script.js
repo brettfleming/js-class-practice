@@ -5,7 +5,7 @@
 let name = 'tim';
 //the type of this variable is a number
 //let is used when the varible can be redeclared this isnt used very often
-let age = 23;
+const age = 23;
 
 
 //const is used when the varibnle is not meant to be redclared 
@@ -76,3 +76,40 @@ if ((cat1 > cat2 && cat1 > cat3) && !disabledHandicap){
 } else if ((cat3 > cat1 && cat3 > cat2) || disabledHandicap ){
     console.log('cat 3 is the cutest!')
 };
+
+
+const students = ['Timmy', 'Janessa', 'Arun'];
+
+let naughtyList = [];
+naughtyList.push(students[0]);
+
+//indexOf returns the index number of the value you are looking for if the value is not fun it returns -1 instead
+let index = naughtyList.indexOf('Timmy');
+
+//we are checking to make sure the searched value was found
+if (index > -1) {
+    naughtyList= naughtyList.splice(index, 1);
+}
+console.log(students);
+console.log(naughtyList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
