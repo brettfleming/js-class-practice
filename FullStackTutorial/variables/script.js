@@ -102,8 +102,11 @@ const randomNumber = () => {
     //math.floor makes the random number a whole number
     Math.floor(Math.random() * 7)
 }
+//the function to genorate the random color 
 const genorateRandomColor = () => {
+    //set number equal to the random number function
     let Number = randomNumber()
+    //return the random color from the colors array
     return colors[Number]
 }
 
