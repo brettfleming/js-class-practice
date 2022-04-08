@@ -100,6 +100,7 @@ const colors = ['blue', 'green', 'yellow', 'red', 'purple', 'pink', 'orange'];
 //generates random number to search the index
 const randomNumber = () => {
     //math.floor makes the random number a whole number
+    //if you didnt know the length of the array replace 7 with colors.length() (arrayName.length()) to find the length of the array and use that instead
     Math.floor(Math.random() * 7)
 }
 //the function to genorate the random color 
