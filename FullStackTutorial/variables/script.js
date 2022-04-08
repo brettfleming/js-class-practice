@@ -99,6 +99,7 @@ console.log(naughtyList);
 const colors = ['blue', 'green', 'yellow', 'red', 'purple', 'pink', 'orange'];
 //generates random number to search the index
 const randomNumber = () => {
+    //math.floor makes the random number a whole number
     Math.floor(Math.random() * 7)
 }
 const genorateRandomColor = () => {
