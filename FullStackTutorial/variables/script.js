@@ -96,6 +96,12 @@ console.log(students);
 console.log(naughtyList);
 
 
+const colors = ['blue', 'green', 'yellow', 'red', 'purple', 'pink', 'orange'];
+
+const randomNumber = () => {
+    Math.floor(Math.random() * 7)
+}
+
 
 
 
