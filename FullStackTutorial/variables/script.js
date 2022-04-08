@@ -95,9 +95,9 @@ if (index > -1) {
 console.log(students);
 console.log(naughtyList);
 
-
+//array of colors
 const colors = ['blue', 'green', 'yellow', 'red', 'purple', 'pink', 'orange'];
-
+//generates random number to search the index
 const randomNumber = () => {
     Math.floor(Math.random() * 7)
 }
@@ -105,6 +105,8 @@ const genorateRandomColor = () => {
     let Number = randomNumber()
     return colors[Number]
 }
+
+genorateRandomColor();
 
 
 
