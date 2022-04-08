@@ -101,6 +101,10 @@ const colors = ['blue', 'green', 'yellow', 'red', 'purple', 'pink', 'orange'];
 const randomNumber = () => {
     Math.floor(Math.random() * 7)
 }
+const genorateRandomColor = () => {
+    let Number = randomNumber()
+    return colors[Number]
+}
 
 
 
