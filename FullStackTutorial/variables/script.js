@@ -111,6 +111,7 @@ const genorateRandomColor = () => {
     return colors[Number]
 }
 
+// call the function
 genorateRandomColor();
 
 
