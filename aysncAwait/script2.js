@@ -149,3 +149,16 @@ Promise.all([promise1, promise2, promise3]).then(function(values) {
   console.log(values);
 });
 // expected output: Array [5, 44, "foo"]
+
+function helloWorld() {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve('Hello World!');
+    }, 2000);
+  });
+}
+ 
+const msg = async function() { //Async Function Expression
+  const msg = await helloWorld();
+  console.log('Message:', msg);
+}
